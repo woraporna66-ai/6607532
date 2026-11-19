@@ -187,7 +187,7 @@ $products = $conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
     <div class="header">
         <h1>Dashboard</h1>
-        <p>ยินดีต้อนรับสู่ระบบจัดการร้านเสื้อผ้า SL33Z</p>
+        <ยินดีต้อนรับสู่ SL33Z Clothing Store - CI/CD Version 2</p>
     </div>
 
     <div class="cards">
