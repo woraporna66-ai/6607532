@@ -153,6 +153,133 @@ $products = $conn->query($sql)->fetchAll(PDO::FETCH_ASSOC);
                 overflow-x: auto;
             }
         }
+
+/* SL33Z Dark Luxury Theme */
+
+body {
+    background: #101010;
+    color: #f5f5f5;
+}
+
+.sidebar {
+    background: #080808;
+    border-right: 1px solid #292929;
+    padding: 35px 20px;
+}
+
+.logo {
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.sidebar a {
+    color: #999;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+    background: #252525;
+    color: white;
+}
+
+.main {
+    padding: 45px;
+}
+
+.header h1 {
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+.header p {
+    color: #888;
+}
+
+.btn {
+    background: #f5f5f5;
+    color: #111;
+    padding: 13px 22px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #ccc;
+}
+
+.section {
+    background: #191919;
+    border: 1px solid #303030;
+    border-radius: 8px;
+    padding: 28px;
+    overflow-x: auto;
+}
+
+table {
+    min-width: 650px;
+}
+
+th, td {
+    padding: 17px 14px;
+    border-bottom: 1px solid #303030;
+}
+
+th {
+    color: #888;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+td {
+    color: #ddd;
+    font-size: 14px;
+}
+
+tr:hover td {
+    background: #222;
+}
+
+.action a {
+    font-weight: bold;
+}
+
+.edit {
+    color: #aaa;
+}
+
+.edit:hover {
+    color: white;
+}
+
+.delete {
+    color: #e87979;
+}
+
+.delete:hover {
+    color: #ff4444;
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .main {
+        margin-left: 0;
+        padding: 20px;
+    }
+}
     </style>
 </head>
 
