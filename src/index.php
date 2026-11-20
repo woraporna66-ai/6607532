@@ -356,7 +356,7 @@ tbody tr:last-child td {
     <div class="subtitle">CLOTHING STORE</div>
 
     <div class="menu-label">MAIN MENU</div>
-    <a href="index.php" class="active">◈ &nbsp; Dashboard</a>
+    <a href="index.php" class="active">◈ &nbsp; 6607532</a>
     <a href="products.php">▤ &nbsp; Products</a>
     <a href="categories.php">▧ &nbsp; Categories</a>
 </aside>
@@ -370,7 +370,7 @@ tbody tr:last-child td {
 
     <header class="header">
         <div class="eyebrow">OVERVIEW / 01</div>
-        <h1>Dashboard.</h1>
+        <h1>Woraporn Eawchu</h1>
         <p>ยินดีต้อนรับสู่ SL33Z Clothing Store<br>
         จัดการร้านค้าของคุณได้ในที่เดียว</p>
     </header>
